@@ -11,6 +11,10 @@ countButton.addEventListener("click", () => {
     textCount.innerText = setCounter;
 
     switch (setCounter) {
+        case 0:
+            funnyMessage.innerText = "";
+            break;
+
         case 5:
             funnyMessage.innerText = "You're good at this!!";
             break;
