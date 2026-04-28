@@ -1,4 +1,4 @@
-let setCounter = 5;
+let setCounter = 0;
 let textCount = document.getElementById("text-count");
 let funnyMessage = document.getElementById("funny-message");
 let countButton = document.getElementById("count-button");
